@@ -13,6 +13,7 @@ import nu.xom.ParsingException;
 public class App {
     public static void main(String[] args)
     {
+    		System.out.println("Se print fix tout");
     	try {
     		  Builder parser = new Builder();
     		  Document doc = parser.build("http://www.cafeconleche.org/");
